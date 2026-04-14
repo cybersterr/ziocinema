@@ -16,8 +16,8 @@ async function fetchAndConvert() {
     let userAgent = null;
     let headers = {};
 
-    let collectingHeaders = false;
     let headerBuffer = "";
+    let collectingHeaders = false;
 
     let idCounter = 1;
     let skipFirst = true;
@@ -40,34 +40,25 @@ async function fetchAndConvert() {
         userAgent = uaMatch ? uaMatch[1].trim() : null;
       }
 
-      // 🔹 HEADERS START
+      // 🔹 HEADERS (START)
       else if (line.startsWith("#EXTHTTP")) {
         collectingHeaders = true;
         headerBuffer = line.replace("#EXTHTTP:", "").trim();
-
-        if (headerBuffer.endsWith("}")) {
-          headers = safeJson(headerBuffer);
-          collectingHeaders = false;
-        }
       }
 
-      // 🔹 MULTILINE HEADER FIX
-      else if (collectingHeaders) {
+      // 🔹 CONTINUE HEADERS UNTIL URL COMES
+      else if (collectingHeaders && !line.startsWith("http")) {
         headerBuffer += line;
+      }
 
-        if (line.includes("}")) {
-          headers = safeJson(headerBuffer);
+      // 🔹 URL (IMPORTANT FIX: this ENDS header collection)
+      else if (line.startsWith("http") && name) {
+
+        // ✅ FORCE STOP header collection here
+        if (collectingHeaders) {
+          headers = fixHeaders(headerBuffer);
           collectingHeaders = false;
         }
-      }
-
-      // 🔹 SKIP
-      else if (line === "" || line.startsWith("#EXTM3U")) {
-        continue;
-      }
-
-      // 🔹 URL FOUND
-      else if (line.startsWith("http") && name) {
 
         if (skipFirst) {
           skipFirst = false;
@@ -81,7 +72,7 @@ async function fetchAndConvert() {
           type: "hls",
           id: String(idCounter),
           name: name,
-          group: "CS OTT | Jio Cinema", // ✅ FORCED
+          group: "CS OTT | Jio Cinema",
           logo: logo,
           user_agent: userAgent,
           m3u8_url: line,
@@ -95,7 +86,7 @@ async function fetchAndConvert() {
     }
 
     fs.writeFileSync(OUTPUT_FILE, JSON.stringify(result, null, 2));
-    console.log("✅ JSON GENERATED SUCCESSFULLY");
+    console.log("✅ FIXED: JSON GENERATED SUCCESSFULLY");
 
   } catch (err) {
     console.error("❌ ERROR:", err.message);
@@ -111,17 +102,27 @@ async function fetchAndConvert() {
   }
 }
 
-// 🔧 Safe JSON parser
-function safeJson(str) {
+// 🔥 FIX BROKEN HEADER JSON (your main issue)
+function fixHeaders(raw) {
   try {
-    if (!str.endsWith("}")) str += "}";
-    return JSON.parse(str);
+    let fixed = raw;
+
+    // close missing quotes/brackets
+    if (!fixed.endsWith("}")) fixed += '"}';
+
+    return JSON.parse(fixed);
   } catch {
-    return { raw: str };
+    return { Cookie: extractCookie(raw) };
   }
 }
 
-// 🔧 Extract expiry from cookie
+// 🔧 Extract cookie manually if JSON fails
+function extractCookie(raw) {
+  const match = raw.match(/Cookie":"([^"]+)/);
+  return match ? match[1] : null;
+}
+
+// 🔧 Extract expiry
 function extractExpiry(cookie) {
   if (!cookie) return null;
 
@@ -131,7 +132,7 @@ function extractExpiry(cookie) {
   const exp = parseInt(match[1]);
   const now = Math.floor(Date.now() / 1000);
 
-  return exp - now; // seconds remaining
+  return exp - now;
 }
 
 // 🔧 Clean text
