@@ -4,68 +4,59 @@ const fs = require("fs");
 const STREAM_URL = "https://hotstar.droozy.workers.dev/";
 const OUTPUT_FILE = "stream.json";
 
-async function fetchAndSaveJson() {
+async function fetchAndConvert() {
   try {
     const response = await axios.get(STREAM_URL, { responseType: "text" });
     const lines = response.data.split("\n");
 
-    const result = {};
+    const result = [];
 
-    let currentLogo = null;
-    let currentChannel = null;
-    let currentUserAgent = null;
-    let currentHeaders = {};
+    let name = null;
+    let logo = null;
+    let userAgent = null;
+    let headers = {};
 
     let collectingHeaders = false;
     let headerBuffer = "";
 
+    let idCounter = 1;
     let skipFirst = true;
-    let counter = 1;
 
     for (let i = 0; i < lines.length; i++) {
       const line = lines[i].trim();
 
-      // 🔹 EXTINF (basic info)
+      // 🔹 EXTINF
       if (line.startsWith("#EXTINF:")) {
         const logoMatch = line.match(/tvg-logo="([^"]+)"/);
-        const channelMatch = line.match(/,(.*)$/);
+        const nameMatch = line.match(/,(.*)$/);
 
-        currentLogo = logoMatch ? logoMatch[1] : null;
-        currentChannel = channelMatch ? cleanText(channelMatch[1]) : null;
+        logo = logoMatch ? logoMatch[1] : null;
+        name = nameMatch ? cleanText(nameMatch[1]) : null;
       }
 
       // 🔹 USER AGENT
       else if (line.startsWith("#EXTVLCOPT")) {
         const uaMatch = line.match(/http-user-agent=(.*)/);
-        currentUserAgent = uaMatch ? uaMatch[1].trim() : null;
+        userAgent = uaMatch ? uaMatch[1].trim() : null;
       }
 
-      // 🔹 START HEADER COLLECTION (handles broken JSON)
+      // 🔹 HEADERS START
       else if (line.startsWith("#EXTHTTP")) {
         collectingHeaders = true;
         headerBuffer = line.replace("#EXTHTTP:", "").trim();
 
-        // If already valid JSON in one line
         if (headerBuffer.endsWith("}")) {
-          try {
-            currentHeaders = JSON.parse(headerBuffer);
-          } catch {
-            currentHeaders = fixAndParseHeaders(headerBuffer);
-          }
+          headers = safeJson(headerBuffer);
           collectingHeaders = false;
         }
       }
 
-      // 🔹 CONTINUE COLLECTING BROKEN HEADER JSON
+      // 🔹 MULTILINE HEADER FIX
       else if (collectingHeaders) {
         headerBuffer += line;
 
         if (line.includes("}")) {
-          try {
-            currentHeaders = JSON.parse(headerBuffer);
-          } catch {
-            currentHeaders = fixAndParseHeaders(headerBuffer);
-          }
+          headers = safeJson(headerBuffer);
           collectingHeaders = false;
         }
       }
@@ -75,8 +66,8 @@ async function fetchAndSaveJson() {
         continue;
       }
 
-      // 🔹 STREAM URL
-      else if (line.startsWith("http") && currentChannel) {
+      // 🔹 URL FOUND
+      else if (line.startsWith("http") && name) {
 
         if (skipFirst) {
           skipFirst = false;
@@ -84,53 +75,63 @@ async function fetchAndSaveJson() {
           continue;
         }
 
-        result[counter] = {
-          channel_name: currentChannel,
-          group_title: "CS OTT | Jio Cinema",
-          tvg_logo: currentLogo,
-          url: line,
-          user_agent: currentUserAgent,
-          headers: currentHeaders,
-          cookie: currentHeaders?.Cookie || null,
-          referer: currentHeaders?.Referer || null,
-          origin: currentHeaders?.Origin || null
-        };
+        const expiresIn = extractExpiry(headers?.Cookie);
 
-        counter++;
+        result.push({
+          type: "hls",
+          id: String(idCounter),
+          name: name,
+          group: "CS OTT | Jio Cinema", // ✅ FORCED
+          logo: logo,
+          user_agent: userAgent,
+          m3u8_url: line,
+          headers: headers,
+          expires_in: expiresIn
+        });
+
+        idCounter++;
         reset();
       }
     }
 
-    fs.writeFileSync(OUTPUT_FILE, JSON.stringify(result, null, 2), "utf-8");
-    console.log("✅ stream.json created with FULL extraction");
+    fs.writeFileSync(OUTPUT_FILE, JSON.stringify(result, null, 2));
+    console.log("✅ JSON GENERATED SUCCESSFULLY");
 
   } catch (err) {
-    console.error("❌ Failed:", err.message);
-    process.exit(1);
+    console.error("❌ ERROR:", err.message);
   }
 
   function reset() {
-    currentLogo = null;
-    currentChannel = null;
-    currentUserAgent = null;
-    currentHeaders = {};
+    name = null;
+    logo = null;
+    userAgent = null;
+    headers = {};
     headerBuffer = "";
     collectingHeaders = false;
   }
 }
 
-// 🔧 Fix broken JSON like missing quotes/brackets
-function fixAndParseHeaders(raw) {
+// 🔧 Safe JSON parser
+function safeJson(str) {
   try {
-    let fixed = raw;
-
-    // Try closing JSON if broken
-    if (!fixed.endsWith("}")) fixed += "}";
-
-    return JSON.parse(fixed);
+    if (!str.endsWith("}")) str += "}";
+    return JSON.parse(str);
   } catch {
-    return { raw_headers: raw }; // fallback
+    return { raw: str };
   }
+}
+
+// 🔧 Extract expiry from cookie
+function extractExpiry(cookie) {
+  if (!cookie) return null;
+
+  const match = cookie.match(/exp=(\d+)/);
+  if (!match) return null;
+
+  const exp = parseInt(match[1]);
+  const now = Math.floor(Date.now() / 1000);
+
+  return exp - now; // seconds remaining
 }
 
 // 🔧 Clean text
@@ -141,4 +142,4 @@ function cleanText(text) {
     .trim();
 }
 
-fetchAndSaveJson();
+fetchAndConvert();
