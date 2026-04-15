@@ -8,9 +8,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://livetv.hotstar.com/mp2/gec-india/068ea5304f1841f4ac839311c7f539b8/index_7.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -21,9 +21,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://livetv.hotstar.com/mp1/gec-india/4651958e6bd142a48cf1b512257b130a/index_7.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -34,9 +34,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://livetv.hotstar.com/mp2/gec-india/bfe09a877cc4458dbc75f05b56d7e1ed/index_7.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -47,9 +47,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://livetv.hotstar.com/mp1/gec-india/04b034555d63400d9bc304bf91950874/index_7.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -60,9 +60,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://livetv.hotstar.com/mp2/gec-india/faffc00f9fc7402db40108fd87c2d53e/index_7.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -73,9 +73,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://livetv.hotstar.com/mp1/gec-india-hotstartv/3e222014b2524730ad86d0a8457ca5c1/index_7.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -86,9 +86,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://livetv.hotstar.com/mp2/gec-india/60b51adb7eae4ae492e6ba6c156a1efe/index_7.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -99,9 +99,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://livetv.hotstar.com/mp1/gec-india-1540065782/fce958099ca84fc3b980e651a4a668a8/index.mpd",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -112,9 +112,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://livetv.hotstar.com/mp2/gec-india-1540065785/a00717b1324f45eb814eec9e48a12db8/index.mpd",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -125,9 +125,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://livetv.hotstar.com/mp1/gec-india-1540065788/fa6a4f0005ef4f90ab24484d165b0aaf/index.mpd",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -138,9 +138,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://livetv-push.hotstar.com/dash/live/2002470-b/ssselecthd1wv/master.mpd",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -151,9 +151,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://livetv-push.hotstar.com/dash/live/2002471/ssselecthd2wv/master.mpd",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -164,9 +164,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/f0e3e64ae415771d8e460317ce97aa5e/Fallback/f0e3e64ae415771d8e460317ce97aa5e.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -177,9 +177,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/2c7182c8e6a22cfa6ebc02bbc9ed6dd0/Fallback/2c7182c8e6a22cfa6ebc02bbc9ed6dd0.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -190,9 +190,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/034d1fb94cae87294a06f4dc266084b9/Fallback/034d1fb94cae87294a06f4dc266084b9.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -203,9 +203,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/4db6f833701e78ae4443cb268020f03b/Fallback/4db6f833701e78ae4443cb268020f03b.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -216,9 +216,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/JC_ColorsHD/JCHLS/JC_ColorsHD.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -229,9 +229,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/JC_ColorsRishtey/JCHLS/JC_ColorsRishtey.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -242,9 +242,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/JC_ColorsBanglaHD/JCHLS/JC_ColorsBanglaHD.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -255,9 +255,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/JC_ColorsKannadaHD/JCHLS/JC_ColorsKannadaHD.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -268,9 +268,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/JC_ColorsMarathiHD/JCHLS/JC_ColorsMarathiHD.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -281,9 +281,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/JC_ColorsGujarati/JCHLS/JC_ColorsGujarati.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -294,9 +294,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/JC_ColorsTamilHD/JCHLS/JC_ColorsTamilHD.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -307,9 +307,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/JC_ColorsInfinityHD/JCHLS/JC_ColorsInfinityHD.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -320,9 +320,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/JC_ColorsSuperKannada/JCHLS/JC_ColorsSuperKannada.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -333,9 +333,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/JC_ColorsCineplexHD/JCHLS/JC_ColorsCineplexHD.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -346,9 +346,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/JC_ColorsCineplexSuperhit/JCHLS/JC_ColorsCineplexSuperhit.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -359,9 +359,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/JC_ColorsCineplexBollywood/JCHLS/JC_ColorsCineplexBollywood.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -372,9 +372,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/JC_ColorsKannadaCinema/JCHLS/JC_ColorsKannadaCinema.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -385,9 +385,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/JC_MTVHD/JCHLS/JC_MTVHD.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -398,9 +398,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/JC_NickSD/JCHLS/JC_NickSD.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -411,9 +411,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/JC_SonicNick/JCHLS/JC_SonicNick.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -424,9 +424,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/JC_NickHD/JCHLS/JC_NickHD.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -437,9 +437,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/JC_NickJr/JCHLS/JC_NickJr.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -450,9 +450,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/CNBC_Awaaz_voot_MOB/Fallback/CNBC_Awaaz_voot_MOB.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -463,9 +463,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/CNBC_Bazaar_voot_MOB/Fallback/CNBC_Bazaar_voot_MOB.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -476,9 +476,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/CNBC_TV18_voot_MOB/Fallback/CNBC_TV18_voot_MOB.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -489,9 +489,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/News18_India_voot_MOB/Fallback/News18_India_voot_MOB.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -502,9 +502,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/CNN_News18_voot_MOB/Fallback/CNN_News18_voot_MOB.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -515,9 +515,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/News18_Tamil_Nadu_voot_MOB/Fallback/News18_Tamil_Nadu_voot_MOB.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -528,9 +528,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/News18_Lokmat_voot_MOB/Fallback/News18_Lokmat_voot_MOB.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -541,9 +541,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/News18_Bangla_voot_MOB/Fallback/News18_Bangla_voot_MOB.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -554,9 +554,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/News18_Kannada_voot_MOB/Fallback/News18_Kannada_voot_MOB.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -567,9 +567,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/News18_Gujarati_voot_MOB/Fallback/News18_Gujarati_voot_MOB.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -580,9 +580,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/News18_Punjab_Haryana_HP_voot_MOB/Fallback/News18_Punjab_Haryana_HP_voot_MOB.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -593,9 +593,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/News18_Odia_voot_MOB/Fallback/News18_Odia_voot_MOB.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -606,9 +606,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/News18_Assam_North_East_voot_MOB/Fallback/News18_Assam_North_East_voot_MOB.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -619,9 +619,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/News18_Kerala_voot_MOB/Fallback/News18_Kerala_voot_MOB.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -632,9 +632,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/News18_Rajasthan_voot_MOB/Fallback/News18_Rajasthan_voot_MOB.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -645,9 +645,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/News18_Bihar_Jharkhand_voot_MOB/Fallback/News18_Bihar_Jharkhand_voot_MOB.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -658,9 +658,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/News18_MP_Chhattisgarh_voot_MOB/Fallback/News18_MP_Chhattisgarh_voot_MOB.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -671,9 +671,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/News18_UP_Uttarakhand_voot_MOB/Fallback/News18_UP_Uttarakhand_voot_MOB.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -684,9 +684,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://jcevents.hotstar.com/bpk-tv/News18_Urdu_voot_MOB/Fallback/News18_Urdu_voot_MOB.m3u8",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -697,9 +697,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://livetv.hotstar.com/mp1/gec-india-1540057075/57ae0b6fa2b64281984574d406f9a696/index.mpd",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -710,9 +710,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://livetv.hotstar.com/mp1/gec-india-1540057042/65edc0359d4b49f7a42d06d4dfe8457b/index.mpd",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -723,9 +723,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://livetv.hotstar.com/mp2/gec-india-1540057063/03a27d0f3ce347f0a3b4af1f6e62d4cc/index.mpd",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -736,9 +736,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://livetv.hotstar.com/mp1/gec-india-1540057036/9b002b1b2a3748b7a80a8512aef0bb8d/index.mpd",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -749,9 +749,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://livetv.hotstar.com/mp2/gec-india-1540057084/6569043a1d874fb49fc2cf2f273fe097/index.mpd",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -762,9 +762,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://livetv.hotstar.com/mp1/gec-india-1540057072/61b6b96b069d42f9821b6ed85b51388e/index.mpd",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -775,9 +775,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://livetv.hotstar.com/mp2/gec-india-1540057087/136d113eec07474e8836d7dc3dd0533b/index.mpd",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -788,9 +788,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://livetv.hotstar.com/mp1/gec-india-1540057045/a73567ab8abd4680bc8206dd0c625cb0/index.mpd",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -801,9 +801,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://livetv.hotstar.com/mp1/gec-india-1540057060/15ef978ea9f449a2a8c97f7c05e618c5/index.mpd",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -814,9 +814,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://livetv.hotstar.com/mp1/gec-india-1540057033/9680ef02a23e4d05a7d6afab10805ec4/index.mpd",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -827,9 +827,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://livetv.hotstar.com/mp1/gec-india-1540057078/6a9d9dbd5cd84dd3ba89856288c589b3/index.mpd",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -840,9 +840,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://livetv.hotstar.com/mp2/gec-india-1540057051/aa1fac3acfc244b4bbed73575a4a42da/index.mpd",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -853,9 +853,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://livetv.hotstar.com/mp2/gec-india-1540057027/39127b380adb405e8de434e10e20c3a6/index.mpd",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -866,9 +866,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://livetv.hotstar.com/mp2/gec-india-1540057030/0bbcb34798fd454a81c3502fb652911e/index.mpd",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -879,9 +879,9 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://livetv.hotstar.com/mp1/gec-india-1540057039/96454b89b9cd49df822108b6975a1a60/index.mpd",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   },
   {
     "type": "hls",
@@ -892,8 +892,8 @@
     "user_agent": "Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)",
     "m3u8_url": "https://livetv.hotstar.com/mp2/gec-india-1540057081/5c13f17d142c4963a1c7bd54fcd421d5/index.mpd",
     "headers": {
-      "Cookie": "hdntl=exp=1776261783~acl=%2f*~id=4eace8a99e72ad2cd85d0a1c3f8d2642~data=hdntl~hmac=a4d7583f450c4abebae380b9f6fee2cf3e084cedc33be3bb09eb0f38d106be3d"
+      "Cookie": "hdntl=exp=1776282393~acl=%2f*~id=f5b491cbe88d4911827a04abc95686c7~data=hdntl~hmac=53ec46099fac3f81c796d125b7312e6ef2da0a0cbc1ece51e74ca27b02158220"
     },
-    "expires_in": 50399
+    "expires_in": 48230
   }
 ]
