@@ -1,7 +1,7 @@
 const axios = require("axios");
 const fs = require("fs");
 
-const JSON_URL = "PASTE_YOUR_JSON_URL_HERE";
+const JSON_URL = "https://netx.streamstar18.workers.dev/hot1";
 const OUTPUT_FILE = "stream.m3u";
 
 async function convertJsonToM3U() {
