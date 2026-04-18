@@ -29,6 +29,11 @@ async function convertJsonToM3U() {
       const userAgent = item.user_agent || "";
       const headers = item.headers || {};
 
+      // ✅ ADDED (only change)
+      const finalLogo = item.logo && item.logo.trim() !== ""
+        ? item.logo
+        : "https://latestlogo.com/wp-content/uploads/2024/01/jiocinema-logo.png";
+
       // 🔥 Build Kodi header string
       let headerString = "";
 
