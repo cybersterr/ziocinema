@@ -32,7 +32,7 @@ jobs:
           cd scraper
           npm start
 
-      - name: Commit and push stream.json
+      - name: Commit and push playlist.m3u
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -42,11 +42,11 @@ jobs:
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
           git pull --rebase origin main
 
-          cp scraper/stream.json stream.json
-          git add stream.json
+          cp scraper/playlist.m3u playlist.m3u
+          git add playlist.m3u
 
           if ! git diff-index --quiet HEAD; then
-            git commit -m "📥 Updated stream.json from remote JSON"
+            git commit -m "📺 Updated playlist.m3u from JSON"
             git push origin main
           else
             echo "No changes to push."
