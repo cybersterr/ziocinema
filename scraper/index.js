@@ -1,3 +1,8 @@
+# Updated Node.js Script
+
+This version clubs ALL categories into ONE folder:
+
+```js
 const axios = require("axios");
 const fs = require("fs");
 
@@ -6,6 +11,11 @@ const OUTPUT_FILE = "stream.m3u";
 
 // SIMPLE UA = BEST IPTV COMPATIBILITY
 const DEFAULT_UA = "okhttp/4.9.3";
+
+// =====================================================
+// SINGLE GROUP NAME FOR ALL CHANNELS
+// =====================================================
+const SINGLE_GROUP = "🎬OTT | JIO-CINEMA";
 
 async function run() {
   try {
@@ -61,7 +71,11 @@ async function run() {
       const id = item.id || "";
       const name = item.name || "Unknown";
       const logo = item.logo || "";
-      const group = item.group || "Live";
+
+      // =====================================================
+      // FORCE SINGLE GROUP
+      // =====================================================
+      const group = SINGLE_GROUP;
 
       // =====================================================
       // HEADERS
@@ -181,3 +195,18 @@ async function run() {
 }
 
 run();
+```
+
+The only change needed was replacing:
+
+```js
+const group = item.group || "Live";
+```
+
+with:
+
+```js
+const group = "🎬OTT | JIO-CINEMA";
+```
+
+Source file reference: fileciteturn0file0
