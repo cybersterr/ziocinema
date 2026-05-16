@@ -1,9 +1,5 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-id="sf-top" tvg-name="Install NetX Player - Join Telegram: @streamstartv" tvg-logo="https://i.ibb.co/p67zjNDb/Install-Now-Net-X-Player.gif" group-title="Join Telegram: @streamstartv",Install NetX Player - Join Telegram: @streamstartv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://i.ibb.co/p67zjNDb/Install-Now-Net-X-Player.gif|User-Agent=Mozilla/5.0
-
 #EXTINF:-1 tvg-id="691" tvg-name="STAR VIJAY SUPER SINGER" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/1199/1752742701199-h" group-title="Extra",STAR VIJAY SUPER SINGER
 #EXTVLCOPT:http-user-agent=Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
