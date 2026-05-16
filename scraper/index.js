@@ -4,10 +4,11 @@ const fs = require("fs");
 const JSON_URL = "https://netx.streamstar18.workers.dev/hot1";
 const OUTPUT_FILE = "stream.m3u";
 
-// SIMPLE UA = BEST IPTV COMPATIBILITY
-const DEFAULT_UA = "okhttp/4.9.3";
+// SIMPLE UA = BEST IPTV APP COMPATIBILITY
+const DEFAULT_UA = "Hotstar";
 
 async function run() {
+
   try {
 
     const { data } = await axios.get(JSON_URL);
@@ -19,7 +20,7 @@ async function run() {
     for (const item of data) {
 
       // =====================================================
-      // SKIP PROMO ENTRY
+      // SKIP PROMO / FIRST ENTRY
       // =====================================================
       if (
         item.id === "sf-top" ||
@@ -34,13 +35,14 @@ async function run() {
       const type = (item.type || "").toLowerCase();
 
       // =====================================================
-      // STREAM URL
+      // URL
       // =====================================================
       let url = "";
 
       if (type === "dash") {
         url = item.mpd_url;
-      } else if (type === "hls") {
+      }
+      else if (type === "hls") {
         url = item.m3u8_url;
       }
 
@@ -83,32 +85,7 @@ async function run() {
         headers.origin ||
         "https://www.hotstar.com";
 
-      // IPTV APPS BREAK WITH COMPLEX UAs
       const ua = DEFAULT_UA;
-
-      // =====================================================
-      // PIPE HEADERS
-      // =====================================================
-      let pipeHeaders = [];
-
-      if (cookie) {
-        pipeHeaders.push(`Cookie=${cookie}`);
-      }
-
-      pipeHeaders.push(`User-Agent=${ua}`);
-
-      if (referer) {
-        pipeHeaders.push(`Referer=${referer}`);
-      }
-
-      if (origin) {
-        pipeHeaders.push(`Origin=${origin}`);
-      }
-
-      const finalUrl =
-        pipeHeaders.length > 0
-          ? `${url}|${pipeHeaders.join("&")}`
-          : url;
 
       // =====================================================
       // EXTINF
@@ -116,11 +93,24 @@ async function run() {
       out += `#EXTINF:-1 tvg-id="${id}" tvg-name="${name}" tvg-logo="${logo}" group-title="${group}",${name}\n`;
 
       // =====================================================
+      // HLS / M3U8
+      // =====================================================
+      if (type === "hls") {
+
+        out += `#EXTVLCOPT:http-user-agent=${ua}\n`;
+
+        out += `#EXTHTTP:{"Cookie":"${cookie}","Origin":"${origin}","Referer":"${referer}"}\n`;
+
+        out += `${url}\n\n`;
+      }
+
+      // =====================================================
       // DASH / MPD
       // =====================================================
-      if (type === "dash") {
+      else if (type === "dash") {
 
         out += `#KODIPROP:inputstream=inputstream.adaptive\n`;
+
         out += `#KODIPROP:inputstream.adaptive.manifest_type=mpd\n`;
 
         // =================================================
@@ -138,6 +128,7 @@ async function run() {
             const key = decodeURIComponent(match[2]);
 
             out += `#KODIPROP:inputstream.adaptive.license_type=clearkey\n`;
+
             out += `#KODIPROP:inputstream.adaptive.license_key=${kid}:${key}\n`;
           }
         }
@@ -162,12 +153,9 @@ async function run() {
         }
 
         out += `#KODIPROP:inputstream.adaptive.stream_headers=${dashHeaders.join("&")}\n`;
-      }
 
-      // =====================================================
-      // FINAL URL
-      // =====================================================
-      out += `${finalUrl}\n\n`;
+        out += `${url}\n\n`;
+      }
     }
 
     fs.writeFileSync(OUTPUT_FILE, out);
