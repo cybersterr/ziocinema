@@ -4,9 +4,6 @@ const fs = require("fs");
 const JSON_URL = "https://netx.streamstar18.workers.dev/hot1";
 const OUTPUT_FILE = "stream.m3u";
 
-// SIMPLE UA = BEST IPTV COMPATIBILITY
-const DEFAULT_UA = "okhttp/4.9.3";
-
 async function run() {
   try {
 
@@ -87,9 +84,6 @@ async function run() {
         headers.origin ||
         "https://www.hotstar.com";
 
-      // IPTV APPS BREAK WITH COMPLEX UAs
-      const ua = DEFAULT_UA;
-
       // =====================================================
       // PIPE HEADERS
       // =====================================================
@@ -98,8 +92,6 @@ async function run() {
       if (cookie) {
         pipeHeaders.push(`Cookie=${cookie}`);
       }
-
-      pipeHeaders.push(`User-Agent=${ua}`);
 
       if (referer) {
         pipeHeaders.push(`Referer=${referer}`);
@@ -118,55 +110,6 @@ async function run() {
       // EXTINF
       // =====================================================
       out += `#EXTINF:-1 tvg-id="${id}" tvg-name="${name}" tvg-logo="${logo}" group-title="${group}",${name}\n`;
-
-      // =====================================================
-      // DASH / MPD
-      // =====================================================
-      if (type === "dash") {
-
-        out += `#KODIPROP:inputstream=inputstream.adaptive\n`;
-        out += `#KODIPROP:inputstream.adaptive.manifest_type=mpd\n`;
-
-        // =================================================
-        // CLEARKEY
-        // =================================================
-        if (item.license_url) {
-
-          const match = item.license_url.match(
-            /keyid=([^&]+).*key=([^&]+)/i
-          );
-
-          if (match) {
-
-            const kid = decodeURIComponent(match[1]);
-            const key = decodeURIComponent(match[2]);
-
-            out += `#KODIPROP:inputstream.adaptive.license_type=clearkey\n`;
-            out += `#KODIPROP:inputstream.adaptive.license_key=${kid}:${key}\n`;
-          }
-        }
-
-        // =================================================
-        // DASH HEADERS
-        // =================================================
-        let dashHeaders = [];
-
-        if (cookie) {
-          dashHeaders.push(`Cookie=${cookie}`);
-        }
-
-        dashHeaders.push(`User-Agent=${ua}`);
-
-        if (referer) {
-          dashHeaders.push(`Referer=${referer}`);
-        }
-
-        if (origin) {
-          dashHeaders.push(`Origin=${origin}`);
-        }
-
-        out += `#KODIPROP:inputstream.adaptive.stream_headers=${dashHeaders.join("&")}\n`;
-      }
 
       // =====================================================
       // FINAL URL
