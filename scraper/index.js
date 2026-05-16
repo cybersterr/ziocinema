@@ -60,9 +60,9 @@ async function run() {
       const logo = item.logo || "";
 
       // =====================================================
-      // GROUP
+      // SINGLE GROUP FOR ALL CHANNELS
       // =====================================================
-      const group = item.group || "🎬OTT | JIO-CINEMA";
+      const group = "🎬OTT | JIO-CINEMA";
 
       // =====================================================
       // HEADERS
@@ -112,14 +112,16 @@ async function run() {
       out += `#EXTINF:-1 tvg-id="${id}" tvg-name="${name}" tvg-logo="${logo}" group-title="${group}",${name}\n`;
 
       // =====================================================
-      // DASH STREAMS
+      // DASH / MPD
       // =====================================================
       if (type === "dash") {
 
-        // KEEP DRM FOR PLAYERS THAT SUPPORT IT
         out += `#KODIPROP:inputstream=inputstream.adaptive\n`;
         out += `#KODIPROP:inputstream.adaptive.manifest_type=mpd\n`;
 
+        // =================================================
+        // CLEARKEY
+        // =================================================
         if (item.license_url) {
 
           const match = item.license_url.match(
@@ -136,6 +138,9 @@ async function run() {
           }
         }
 
+        // =================================================
+        // DASH HEADERS
+        // =================================================
         let dashHeaders = [];
 
         if (cookie) {
