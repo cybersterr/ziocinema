@@ -4,18 +4,23 @@ const fs = require("fs");
 const JSON_URL = "https://netx.streamstar18.workers.dev/hot1";
 const OUTPUT_FILE = "stream.m3u";
 
+// SIMPLE UA = BEST IPTV COMPATIBILITY
+const DEFAULT_UA = "okhttp/4.9.3";
+
 async function run() {
   try {
+
     const { data } = await axios.get(JSON_URL);
 
     let out = "#EXTM3U\n\n";
+
     const used = new Set();
 
     for (const item of data) {
 
-      // ============================================
-      // SKIP FIRST TELEGRAM / NETX ENTRY
-      // ============================================
+      // =====================================================
+      // SKIP PROMO ENTRY
+      // =====================================================
       if (
         item.id === "sf-top" ||
         (item.name || "").includes("Install NetX Player")
@@ -23,81 +28,104 @@ async function run() {
         continue;
       }
 
+      // =====================================================
+      // TYPE
+      // =====================================================
       const type = (item.type || "").toLowerCase();
 
-      // ============================================
+      // =====================================================
       // STREAM URL
-      // ============================================
-      const url =
-        type === "dash"
-          ? item.mpd_url
-          : item.m3u8_url;
+      // =====================================================
+      let url = "";
+
+      if (type === "dash") {
+        url = item.mpd_url;
+      } else if (type === "hls") {
+        url = item.m3u8_url;
+      }
 
       if (!url) continue;
 
-      // ============================================
-      // DUPLICATE CHECK
-      // ============================================
+      // =====================================================
+      // DUPLICATES
+      // =====================================================
       const uid = `${item.id}_${item.name}`;
 
       if (used.has(uid)) continue;
+
       used.add(uid);
 
-      // ============================================
+      // =====================================================
       // BASIC INFO
-      // ============================================
+      // =====================================================
+      const id = item.id || "";
       const name = item.name || "Unknown";
       const logo = item.logo || "";
       const group = item.group || "Live";
 
-      // ============================================
+      // =====================================================
       // HEADERS
-      // ============================================
+      // =====================================================
       const headers = item.headers || {};
 
-      const cookie = headers.Cookie || headers.cookie || "";
-      const referer = headers.Referer || headers.referer || "";
-      const origin = headers.Origin || headers.origin || "";
-      const ua = item.user_agent || "Mozilla/5.0";
+      const cookie =
+        headers.Cookie ||
+        headers.cookie ||
+        "";
 
-      // ============================================
-      // URL HEADERS FORMAT
-      // ============================================
+      const referer =
+        headers.Referer ||
+        headers.referer ||
+        "https://www.hotstar.com/";
+
+      const origin =
+        headers.Origin ||
+        headers.origin ||
+        "https://www.hotstar.com";
+
+      // IPTV APPS BREAK WITH COMPLEX UAs
+      const ua = DEFAULT_UA;
+
+      // =====================================================
+      // PIPE HEADERS
+      // =====================================================
       let pipeHeaders = [];
 
-      if (cookie)
+      if (cookie) {
         pipeHeaders.push(`Cookie=${cookie}`);
+      }
 
-      if (ua)
-        pipeHeaders.push(`User-Agent=${ua}`);
+      pipeHeaders.push(`User-Agent=${ua}`);
 
-      if (referer)
+      if (referer) {
         pipeHeaders.push(`Referer=${referer}`);
+      }
 
-      if (origin)
+      if (origin) {
         pipeHeaders.push(`Origin=${origin}`);
+      }
 
       const finalUrl =
         pipeHeaders.length > 0
           ? `${url}|${pipeHeaders.join("&")}`
           : url;
 
-      // ============================================
+      // =====================================================
       // EXTINF
-      // ============================================
-      out += `#EXTINF:-1 tvg-id="${item.id}" tvg-name="${name}" tvg-logo="${logo}" group-title="${group}",${name}\n`;
+      // =====================================================
+      out += `#EXTINF:-1 tvg-id="${id}" tvg-name="${name}" tvg-logo="${logo}" group-title="${group}",${name}\n`;
 
-      // ============================================
+      // =====================================================
       // DASH / MPD
-      // ============================================
+      // =====================================================
       if (type === "dash") {
 
         out += `#KODIPROP:inputstream=inputstream.adaptive\n`;
         out += `#KODIPROP:inputstream.adaptive.manifest_type=mpd\n`;
 
-        // ============================================
+        // =================================================
         // CLEARKEY
-        // ============================================
+        // =================================================
         if (item.license_url) {
 
           const match = item.license_url.match(
@@ -114,52 +142,41 @@ async function run() {
           }
         }
 
-        // ============================================
-        // STREAM HEADERS
-        // ============================================
-        let streamHeaders = [];
+        // =================================================
+        // DASH HEADERS
+        // =================================================
+        let dashHeaders = [];
 
-        if (ua)
-          streamHeaders.push(`User-Agent=${ua}`);
-
-        if (referer)
-          streamHeaders.push(`Referer=${referer}`);
-
-        if (origin)
-          streamHeaders.push(`Origin=${origin}`);
-
-        if (cookie)
-          streamHeaders.push(`Cookie=${cookie}`);
-
-        if (streamHeaders.length > 0) {
-          out += `#KODIPROP:inputstream.adaptive.stream_headers=${streamHeaders.join("&")}\n`;
+        if (cookie) {
+          dashHeaders.push(`Cookie=${cookie}`);
         }
+
+        dashHeaders.push(`User-Agent=${ua}`);
+
+        if (referer) {
+          dashHeaders.push(`Referer=${referer}`);
+        }
+
+        if (origin) {
+          dashHeaders.push(`Origin=${origin}`);
+        }
+
+        out += `#KODIPROP:inputstream.adaptive.stream_headers=${dashHeaders.join("&")}\n`;
       }
 
-      // ============================================
-      // HLS / M3U8
-      // ============================================
-      else if (type === "hls") {
-
-        if (ua)
-          out += `#EXTVLCOPT:http-user-agent=${ua}\n`;
-
-        if (referer)
-          out += `#EXTVLCOPT:http-referrer=${referer}\n`;
-      }
-
-      // ============================================
+      // =====================================================
       // FINAL URL
-      // ============================================
+      // =====================================================
       out += `${finalUrl}\n\n`;
     }
 
     fs.writeFileSync(OUTPUT_FILE, out);
 
-    console.log(`done -> ${OUTPUT_FILE}`);
+    console.log(`DONE -> ${OUTPUT_FILE}`);
 
   } catch (err) {
-    console.error(err.message);
+
+    console.error("ERROR:", err.message);
   }
 }
 
