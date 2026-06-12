@@ -107,21 +107,10 @@ async function run() {
           : url;
 
       // =====================================================
-      // EXTINF
-      // =====================================================
-      out += `#EXTINF:-1 tvg-id="${id}" tvg-name="${name}" tvg-logo="${logo}" group-title="${group}",${name}\n`;
-
-      // =====================================================
-      // DASH / MPD
+      // DASH LICENSE FIRST (CHANGED FORMAT)
       // =====================================================
       if (type === "dash") {
 
-        out += `#KODIPROP:inputstream=inputstream.adaptive\n`;
-        out += `#KODIPROP:inputstream.adaptive.manifest_type=mpd\n`;
-
-        // =================================================
-        // CLEARKEY
-        // =================================================
         if (item.license_url) {
 
           const match = item.license_url.match(
@@ -133,10 +122,24 @@ async function run() {
             const kid = decodeURIComponent(match[1]);
             const key = decodeURIComponent(match[2]);
 
-            out += `#KODIPROP:inputstream.adaptive.license_type=clearkey\n`;
+            out += `#KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha\n`;
             out += `#KODIPROP:inputstream.adaptive.license_key=${kid}:${key}\n`;
           }
         }
+      }
+
+      // =====================================================
+      // EXTINF
+      // =====================================================
+      out += `#EXTINF:-1 tvg-id="${id}" tvg-name="${name}" tvg-logo="${logo}" group-title="${group}",${name}\n`;
+
+      // =====================================================
+      // DASH / MPD
+      // =====================================================
+      if (type === "dash") {
+
+        out += `#KODIPROP:inputstream=inputstream.adaptive\n`;
+        out += `#KODIPROP:inputstream.adaptive.manifest_type=mpd\n`;
 
         // =================================================
         // DASH HEADERS
